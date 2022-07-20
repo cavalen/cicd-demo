@@ -6,6 +6,8 @@ spec:
   host: app-20-88-167-99.nip.io
   tls:
     secret: juice-shop-secret
+  policies:
+  - name: nap-policy
   ingressClassName: valencia-nginx-ingress
   upstreams:
     - name: juice-shop
